@@ -11,6 +11,8 @@
 		BD5C3D3F2C59233E0001CE2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C3D3E2C59233E0001CE2C /* ContentView.swift */; };
 		BD5C3D412C59233F0001CE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5C3D402C59233F0001CE2C /* Assets.xcassets */; };
 		BD5C3D442C59233F0001CE2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5C3D432C59233F0001CE2C /* Preview Assets.xcassets */; };
+		BD5C3D4B2C5928750001CE2C /* questionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C3D4A2C5928750001CE2C /* questionTwo.swift */; };
+		BDEEFD072C59311300323D73 /* questionThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEFD062C59311300323D73 /* questionThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD5C3D3E2C59233E0001CE2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD5C3D402C59233F0001CE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5C3D432C59233F0001CE2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5C3D4A2C5928750001CE2C /* questionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionTwo.swift; sourceTree = "<group>"; };
+		BDEEFD062C59311300323D73 /* questionThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BD5C3D3C2C59233E0001CE2C /* QuestionAppApp.swift */,
 				BD5C3D3E2C59233E0001CE2C /* ContentView.swift */,
+				BD5C3D4A2C5928750001CE2C /* questionTwo.swift */,
+				BDEEFD062C59311300323D73 /* questionThree.swift */,
 				BD5C3D402C59233F0001CE2C /* Assets.xcassets */,
 				BD5C3D422C59233F0001CE2C /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BD5C3D3F2C59233E0001CE2C /* ContentView.swift in Sources */,
 				BD5C3D3D2C59233E0001CE2C /* QuestionAppApp.swift in Sources */,
+				BDEEFD072C59311300323D73 /* questionThree.swift in Sources */,
+				BD5C3D4B2C5928750001CE2C /* questionTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

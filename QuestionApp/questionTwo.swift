@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  questionTwo.swift
 //  QuestionApp
 //
 //  Created by Scholar on 7/30/24.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct questionTwo: View {
     @State private var response = "" //save user response in a variable
     var body: some View {
         NavigationStack { //Lets me add links to other views
@@ -16,10 +16,10 @@ struct ContentView: View {
                 Color(.systemPink)
                     .ignoresSafeArea()
                 VStack { //organizing from top to bottom
-                    Text("How many letters are in the alphabet?") 
+                    Text("How long is a shower supposed to last(please get this right)")
                    
-                    Button("25"){
-                        response = "Close..."
+                    Button("2 minutes"){
+                        response = "Name 5 deodarant brands"
                     }
                     .padding()
                     .fontWeight(.bold)
@@ -27,20 +27,21 @@ struct ContentView: View {
                     
                         
                         
-                        Button("29"){
-                            response = "Little off"
+                        Button("10 minutes"){
+                            response = "I mean yeah"
                         }
                         
                         
-                        Button("26"){
-                            response = "Good job!"
+                        Button("30 seconds"){
+                            response = "we can tell"
                         }
                         Text(response)
                             .font(.title3)
                             .padding()
                     }
-                    NavigationLink(destination:questionTwo()) {
+                    NavigationLink(destination:questionThree()) {
                         Text("Next question!")
+                        
                     }
                 }
             }
@@ -52,6 +53,6 @@ struct ContentView: View {
     }
 
 #Preview {
-    ContentView()
+ questionTwo()
 }
 
